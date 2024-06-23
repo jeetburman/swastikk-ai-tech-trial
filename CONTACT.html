@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header-contact">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.jpeg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark"  id="fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="About.html" target="_blank">About</a></li>
+                    <li><a href="SERVICE.html" target="_blank">Services</a></li>
+                    <li><a href="BLOG.html" target="_blank">Our Reach</a></li>
+                    <li><a href="CONTACT.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="fa" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- Content -->
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa-solid fa-phone"  id="com"></i>
+                <span>
+                    <h5>+91-8210014716</h5>
+                    <p>Swastik Anupam, Founder & CEO</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa-solid fa-envelope" id="com"></i>
+                <span>
+                    <h5>swastikktechnologies@gmail.com / swastikanupam@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email"  placeholder="Enter email address" required>
+                    <textarea rows="8" name="message" placeholder="Enter your message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        
+    </section>
+    
+       <!-- Footer -->
+       <section class="footer">
+        <h4>About Us</h4>
+        <div class="icons">
+            <i class="fa-solid fa-envelope" id="social"></i>
+            <i class="fa-brands fa-linkedin" id="social"></i>
+        </div>
+       </section>
+
+    <script src="/function.js"></script>   
+</body>
+</html>
